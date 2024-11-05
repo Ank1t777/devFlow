@@ -1,3 +1,4 @@
+import React from "react";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
@@ -15,7 +16,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "DevFlow",
-  description: "A better vewrsion of stack overflow",
+  description: "A better version of Stack Overflow",
 };
 
 export default function RootLayout({
