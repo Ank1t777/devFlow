@@ -1,3 +1,7 @@
-export default function Home() {
-  return <h1 className="text-3xl font-black text-white"></h1>;
-}
+const Home = () => (
+  <h1 className="text-3xl font-black text-primary-500">
+    Welcome to the world of Next.Js
+  </h1>
+);
+
+export default Home;
